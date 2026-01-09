@@ -26,12 +26,13 @@
     border: none;
     border-radius: 5px;
 }
-.failure-container{
+.failure-container , .plans-container{
     border: 2px solid red;
     max-width: 1140px;
     margin: 70px auto;
     padding: 20px;
 }
+
 header{
     background: url(../images/banner/banner2.png);
     background-size:  cover;
@@ -88,4 +89,13 @@ header h1{
 }
 .fa-solid{
     color: green;
+}
+/* plans */
+.plans-container h3 , h4 {
+    margin: 10px auto;
+}
+.plan-card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
