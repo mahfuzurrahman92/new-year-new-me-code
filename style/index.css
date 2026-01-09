@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+/* common styles */
+.section-title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold ;
+}
+.sub-title{
+    color: #444343;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #F15B22;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.failure-container{
+    border: 2px solid red;
+    max-width: 1140px;
+    margin: 70px auto;
+    padding: 20px;
+}
+header{
+    background: url(../images/banner/banner2.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.header-description{
+    margin: 150px;
+    border: 1px solid red;
+    max-width: 525px;
+    text-align: right;
+    padding: 20px;
+}
+header h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+/* failure */
+.failure-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.failure-container img{
+    width: 100%;
+    margin-top: -100px;
+}
+
+.failure-img{
+    border-radius: 50%;
+  
+    background: url(../images/gradient2.png);
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.failure-description{
+    border: 1px solid red;
+    max-width: 416px;
+    text-align: left;
+    padding: 20px;
+    align-content: center;
+   
+}
+.failure-description ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.fa-solid{
+    color: green;
+}
