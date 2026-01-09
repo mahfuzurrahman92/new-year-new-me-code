@@ -121,10 +121,16 @@ header h1{
     background-repeat: no-repeat;
     background-size: cover , cover;
     background-position: center , center;
+   
     
     
 }
 .pos-con h3 , button {
     margin-top: 50px;
     margin-left: 20px;
+}
+footer
+{
+    background-color: #151414;
+    height: 500px;
 }
