@@ -22,11 +22,26 @@
 .btn{
     background-color: #F15B22;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 10px;
 }
-.failure-container , .plans-container{
+.btn-s{
+    color: #F15B22;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+.failure-container , .plans-container , 
+.pos-con ,
+.footer-container{
     border: 2px solid red;
     max-width: 1140px;
     margin: 70px auto;
@@ -69,8 +84,9 @@ header h1{
 
 .failure-img{
     border-radius: 50%;
+    background-color: #F15B22;
   
-    background: url(../images/gradient2.png);
+    /* background: url(../images/gradient2.png); */
     width: 300px;
     height: 300px;
     margin-top: 100px;
@@ -98,4 +114,17 @@ header h1{
     display: flex;
     gap: 20px;
     justify-content: space-between;
+}
+/* positive mindset */
+.pos-con{
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    background-size: cover , cover;
+    background-position: center , center;
+    
+    
+}
+.pos-con h3 , button {
+    margin-top: 50px;
+    margin-left: 20px;
 }
