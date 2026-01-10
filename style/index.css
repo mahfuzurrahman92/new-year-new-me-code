@@ -42,7 +42,7 @@
 .failure-container , .plans-container , 
 .pos-con ,
 .footer-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1140px;
     margin: 70px auto;
     padding: 20px;
@@ -61,7 +61,7 @@ header{
 }
 .header-description{
     margin: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 525px;
     text-align: right;
     padding: 20px;
@@ -92,7 +92,7 @@ header h1{
     margin-top: 100px;
 }
 .failure-description{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 416px;
     text-align: left;
     padding: 20px;
@@ -133,4 +133,40 @@ footer
 {
     background-color: #151414;
     height: 500px;
+    padding: 50px;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px auto;
+    
+}
+.feature{
+    /* border: 2px solid ; */
+    max-width: 600px;
+}
+.footer-container h4  {
+    color: white;
+}
+.footer-container p {
+    color: white;
+}
+.subscribe{
+    text-align: left;
+  
+    width: 300px;
+  
+
+}
+.subscribe input {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.subscribe .btn-s{
+    margin-left:0px ;
 }
